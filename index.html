@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yu-Gi-Oh Card Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h1>Yu-Gi-Oh busca de cards</h1>
+      <div class="language-selector">
+        <select id="languageSelect" class="language-select">
+          <option value="en">🇺🇸 English</option>
+          <option value="pt">🇧🇷 Português</option>
+        </select>
+      </div>
+      <button id="themeToggle" class="theme-toggle" title="Alternar tema">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Procure uma carta..." />
+      <div class="loading" id="loadingIndicator">Buscando...</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="results-info" id="resultsInfo"></div>
+    <div id="cardGallery">
+      <!-- Cartas aparecerão aqui -->
+    </div>
+    <div class="load-more-container" id="loadMoreContainer">
+      <button id="loadMoreBtn" class="load-more-btn">Carregar mais cartas</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
