@@ -10,6 +10,11 @@ Esta é uma galeria interativa de cartas de Yu-Gi-Oh!, desenvolvida com HTML, CS
 
 ---
 
+<img width="1224" height="932" alt="imagem_2025-07-17_161457064" src="https://github.com/user-attachments/assets/bf0a6d06-0a53-46ae-a7ec-6dd39a4c9994" />
+
+---
+
+
 ## 🔧 Funcionalidades
 
 ✔️ **Busca de Cartas**  
